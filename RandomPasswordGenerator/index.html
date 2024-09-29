@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Random Password Generator</h1>
+      <h3>Please select the parameters you want</h3>
+
+      <input type="number" id="passwordLength" value="1" />
+      <label for="passwordLength">Enter the desired password length</label
+      ><br />
+
+      <input type="radio" id="lowercaseRadio" />
+      <label for="lowercaseRadio">Include Lowercase Characters</label><br />
+
+      <input type="radio" id="uppercaseRadio" />
+      <label for="uppercaseRadio">Include Uppercase Characters</label><br />
+
+      <input type="radio" id="numberRadio" />
+      <label for="numberRadio">Include Numbers</label><br />
+
+      <input type="radio" id="specialCharactersRadio" />
+      <label for="specialCharactersRadio">Include Special Characters</label
+      ><br />
+
+      <button id="submit">Submit</button><br />
+
+      <label id="resultLabel"></label>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
